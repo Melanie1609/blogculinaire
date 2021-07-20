@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgb(122, 83, 68);
+}
+
+
+
+.showcase{
+    background-image: url('../images/fresh-fruits-2305192__480.jpg');
+    height: 80vh;
+    
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    color: rgb(41, 12, 12);
+
+}
+
+.showcase h1{
+    font-size: 50px;
+}
+
+.showcase p{
+    font-size: medium bolder;
+    
+    
+}
+
+.showcase .buttom{
+    font-size: 18px;
+    text-decoration: none;
+    color: coral;
+    border: rgb(129, 49, 17) 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.showcase .buttom:hover{
+    background:rgb(190, 76, 41);
+    color: rgb(235, 213, 206);
+}
+
+.para{
+    
+    
+    display:  block;
+    background-color:transparent;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+}
+
+footer{
+    margin-top: 20px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color:  #ada2a2;
+    background-color:  rgb(63, 66, 83);
+}
+
+footer h2{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+footer h3{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 200px;
+    margin-top: 20px;
+    
+    
+}
+
+footer .social-media{
+    display: flex;
+    margin-top: 20px;
+}
+
+ footer .social-media p{
+     font-size: 18px;
+     margin-right: 20px;
+ }
+
+ @media screen and (max-width:500px){
+     body{
+         margin: 10px 20px;
+     }
+ 
+
+      nav .onglets{
+         margin-top: -10px;
+      }
+ 
+      .article .article .left img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .article .article .right{
+             margin: 0;
+            max-width: 100%;
+    }
+
+
+    footer .social-media{
+        margin-top: 10px;
+        margin-left: 80px;
+
+ } }
